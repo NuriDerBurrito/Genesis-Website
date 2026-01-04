@@ -213,7 +213,7 @@ function openTalentModal(talentKey) {
         'nuri': { 
             name: 'NuriDerBurrito', 
             bio: 'The Origin. Founder of Genesis Iterations. And the talent behind model creation and creative outlook, retired 3d modeler and animator.', 
-            sprite: 'assets/images/nuri_sprite.png', // UPDATED PATH
+            sprite: 'assets/images/nuri_sprite.png', 
             links: [
                 { name: 'HuggingFace', url: 'https://huggingface.co/NuriDerBurrito', icon: 'assets/logos/huggingface.png' }, 
                 { name: 'Github', url: 'https://github.com/elder-plinius/L1B3RT4S', icon: 'assets/logos/github.png' },
@@ -222,11 +222,11 @@ function openTalentModal(talentKey) {
             ] 
         },
         'adriana': { 
-            name: 'Adriana Audrie', // FIXED NAME
+            name: 'Adriana Audrie', 
             bio: 'The AI Artistry Specialist & Prompt engineer. Curating generative art and digital aesthetics.', 
-            sprite: 'assets/images/adriana_sprite.png', // UPDATED PATH
+            sprite: 'assets/images/adriana_sprite.png', 
             links: [
-                { name: 'Pixiv', url: 'https://www.pixiv.net/en/users/88271604', icon: 'assets/logos/pixiv.png' }, 
+                { name: 'Pixiv', url: 'https://www.pixiv.net/en/users/88271604', icon: 'assets/logos/Pixiv.png' }, 
                 { name: 'X / Twitter', url: 'https://x.com/AdrianaAudrie', icon: 'assets/logos/xitter.png' },
                 { name: 'Patreon', url: 'https://www.patreon.com/c/AUDRIEAI', icon: 'assets/logos/patreon.png' }
             ] 
@@ -234,7 +234,7 @@ function openTalentModal(talentKey) {
         'nightmelody': { 
             name: 'Nightmelody', 
             bio: 'Inactive , AI music creator.', 
-            sprite: 'assets/images/placeholder_sprite.png', // UPDATED PATH
+            sprite: 'assets/images/placeholder_sprite.png',
             links: [
                 { name: 'YouTube', url: 'https://www.youtube.com/@JustNightmelody', icon: 'assets/logos/youtube.png' }
             ] 
