@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talents - Genesis Iterations</title>
+    <link rel="icon" type="image/png" href="assets/logos/main_logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="bg-layer-1" class="bg-layer active"></div>
+    <div id="bg-layer-2" class="bg-layer"></div>
+
+    <div id="page-loader">
+        <img src="assets/logos/main_logo.png" class="loader-logo">
+    </div>
+
+    <header>
+        <a href="index.html" class="logo-container">
+            <img src="assets/logos/main_logo.png" alt="Logo" class="logo-img">
+            <div class="brand-name">Genesis Iterations</div>
+        </a>
+    </header>
+    
+    <div class="sub-header">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="talents.html" class="nav-btn active">Talents</a>
+        <a href="posts.html" class="nav-btn">Posts</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSqIl8xLQQT-QXv8Ny95JfMLUxyeBtD9R2Kv7EikkOphVPEA/viewform?usp=dialog" target="_blank" class="nav-btn">Support</a>
+    </div>
+
+    <div class="container">
+        <div class="section-title">Our Talents</div>
+
+        <div class="talent-grid">
+            
+            <!-- Nuri -->
+            <div class="talent-card-wrapper">
+                <!-- using lower case filename to be safe against OS casing issues -->
+                <div class="diamond-btn nuri" onclick="openTalentModal('nuri')">
+                    <img src="assets/images/nuri_profile.png" alt="Nuri">
+                </div>
+                <div class="talent-name">NuriDerBurrito</div>
+            </div>
+
+            <!-- Adriana Audrie -->
+            <div class="talent-card-wrapper">
+                <!-- using lower case filename: adriana_profile.png -->
+                <div class="diamond-btn adriana" onclick="openTalentModal('adriana')">
+                    <img src="assets/images/adriana_profile.png" alt="Adriana">
+                </div>
+                <!-- Correct Name: Adriana Audrie -->
+                <div class="talent-name">Adriana Audrie</div>
+            </div>
+
+            <!-- Nightmelody -->
+            <div class="talent-card-wrapper">
+                 <!-- using lower case filename: nightmelody_profile.png -->
+                <div class="diamond-btn nightmelody" onclick="openTalentModal('nightmelody')">
+                    <img src="assets/images/nightmelody_profile.png" alt="Nightmelody"> 
+                </div>
+                <div class="talent-name">Nightmelody</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="talent-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeTalentModal()">&times;</span>
+            
+            <div class="modal-left">
+                <img id="modal-sprite" src="" class="modal-sprite" alt="Talent Sprite">
+            </div>
+            
+            <div class="modal-right">
+                <h2 id="modal-name" style="color:var(--accent); font-size:2rem; margin-top:0;">Name</h2>
+                <p id="modal-bio" style="line-height:1.6; font-size:1.1rem; color:#ddd;">Bio goes here...</p>
+                
+                <h3 style="margin-top:30px; border-bottom:1px solid #333; padding-bottom:10px;">Socials & Work</h3>
+                <div id="modal-links" class="social-links-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <div style="display:flex; align-items:center; gap:10px;">
+                <img src="assets/logos/main_logo.png" class="footer-logo-small">
+                <span>Genesis Iterations</span>
+            </div>
+            <div style="font-size:0.8rem; color:#666;">
+                &copy; 2026 Genesis Iterations. All rights reserved.
+            </div>
+            <div class="footer-nav-bottom">
+                <a href="index.html">Home</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSqIl8xLQQT-QXv8Ny95JfMLUxyeBtD9R2Kv7EikkOphVPEA/viewform?usp=dialog">Support</a>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <a href="https://x.com/Giterations" target="_blank">
+                <img src="assets/logos/xitter.png" alt="X" class="social-icon">
+            </a>
+            <a href="https://github.com/Genesis-Iterations" target="_blank">
+                <img src="assets/logos/github.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://huggingface.co/Genesis-Iterations" target="_blank">
+                <img src="assets/logos/huggingface.png" alt="HuggingFace" class="social-icon">
+            </a>
+            <a href="#" class="discord-link">
+                <img src="assets/logos/discord.png" alt="Discord" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
